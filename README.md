@@ -1,7 +1,7 @@
 
 # Modular Forms with ⚡️
 
-This is a complete overview of modular forms with Qwik, showing you how:
+This is a complete overview of modular forms with Qwik, showing you how to:
 - create reusable form fields
 - add validation schemas and form validation
 - do form submission
