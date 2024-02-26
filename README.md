@@ -4,7 +4,7 @@
 This is a complete overview on modular forms with Qwik, showing you how to:
 - create reusable form fields
 - add validation schemas and form validation
-- do form submission
+- do form submission (both serverside and client-side)
 
 ## Part One
 1. Started with a basic TextInput - with a `type`, `label` and 2way bound `text` signal
