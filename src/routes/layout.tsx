@@ -1,15 +1,15 @@
 import { component$, Slot } from "@builder.io/qwik";
 import type { RequestHandler } from "@builder.io/qwik-city";
-// import {routeLoader$} from '@builder.io/qwik-city';
-// import {type InitialValues} from '@modular-forms/qwik';
-// import {type ZodType} from '~/components/ZodForm/zodform-schema';
+import {routeLoader$} from '@builder.io/qwik-city';
+import {type InitialValues} from '@modular-forms/qwik';
+import {type ZodType} from '~/components/ZodForm/zodform-schema';
 
-// export const useFormLoader = routeLoader$<InitialValues<ZodType>>(() => {
-//   return {
-//     title: undefined,
-//     today: undefined,
-//   };
-// });
+export const useFormLoader = routeLoader$<InitialValues<ZodType>>(() => {
+  return {
+    title: undefined,
+    today: undefined,
+  };
+});
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
   // https://qwik.builder.io/docs/caching/
