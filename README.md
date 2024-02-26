@@ -7,7 +7,7 @@ This is a complete overview of modular forms with Qwik, showing you how to:
 - do form submission
 
 ## Part One
-1. Started with a basic TextInput - with a type, label and 2way bound text signal
+1. Started with a basic TextInput - with a `type`, `label` and 2way bound `text` signal
 ```ts
 const TextInput = component$({
     const label = useSignal<string>();
