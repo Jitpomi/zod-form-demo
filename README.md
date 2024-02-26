@@ -119,7 +119,7 @@ const ZodForm = component$({
 
 export default ZodForm;
 ```
-3. Added validation using `zodForm$`: which adds an errors field to the field from Field that i use to display each of the error messages for each field.
+3. Added validation using `zodForm$`: which adds an `errors` field to the field from Field that i use to display each of the error messages for each field.
 4. added submission handlers: the client submision handler  is a QRL added to the Form component's `onSubmit$` prop and the serverside submit handler is a `formAction` added to `useForm`. [(see code)](https://github.com/Jitpomi/zod-form-demo/blob/main/src/components/ZodForm/index.tsx)
 
 ## Take home notes: 
