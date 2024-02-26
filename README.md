@@ -32,7 +32,7 @@ export default TextInput;
 - then added an `onInput$` prop to emit the text value to the parent whenever it changes 
 - then added a `value` prop to act as a default value for the text signal that can be set from the parent and tracked it so we can change the text value whenever it changes
 - finally added `type` prop so we can set the type of our custom `TextInput` from the parent 
-- and thus finally had a basic reusable custom input that you can use anywhere [(see code)](https://github.com/Jitpomi/zod-form-demo/blob/main/src/components/TextInput/index.tsx).
+- and finally had a basic reusable custom input that you can use anywhere [(see code)](https://github.com/Jitpomi/zod-form-demo/blob/main/src/components/TextInput/index.tsx).
 3. Created a form-component
 - defined the schema for the form data
 - used my custom input in the form normally with the form data
